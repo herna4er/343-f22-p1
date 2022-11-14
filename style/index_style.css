@@ -1,0 +1,12 @@
+.picture-container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#sign-up-box {
+    padding: 20px;
+    width: 400px;
+}
+input {
+    width: 350px;
+}

@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header {
+    background-image: url("../images/background_2.png");
+}
+
+p {
+    font-family: serif;
+}
+h1 {
+    color: rgb(178, 141, 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.navbar-custom {
+    background-color: black;
+}

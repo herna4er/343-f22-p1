@@ -1,0 +1,9 @@
+#jersey-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#game-tickets-link {
+    color: black;
+}

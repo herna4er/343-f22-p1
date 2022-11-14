@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/common_style.css">
+    <link rel="stylesheet" href="style/roster_style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+
+        <h1>Mes Que Un Club</h1>
+        <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">FanClub FCB</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="./roster.html">Roster</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./schedule.html">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./store.html">Store</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <h1>Meet the Team</h1>
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Keepers
+              </button>
+            </h2>
+          </div>
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+
+              <div class="accordion" id="keeperAccordion">
+                <div class="card">
+                  <div class="card-header" id="keeperHeading1">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#terStegen" aria-expanded="false" aria-controls="terStegen">
+                        Andre Ter Stegen
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="terStegen" class="collapse" aria-labelledby="keeperHeading1" data-parent="#keeperAccordion">
+                    <div class="card-body">
+                      <img src="./images/ter_stegen.png" alt="Andre Ter Stegen">
+                      <h3>Marc-Andre Ter Stegen</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Goal Keepers</h4>
+                      <p>Age: 30</p>
+                      <p>Shirt Number: 1</p>
+                      <p>Nationality: Germany</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="keeperHeading2">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#pena" aria-expanded="false" aria-controls="pena">
+                        Inaki Pena
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="pena" class="collapse" aria-labelledby="keeperHeading2" data-parent="#keeperAccordion">
+                    <div class="card-body">
+                      <img src="./images/inaki_pena.png" alt="Inaki Pena">
+                      <h3>Inaki Pena</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Goal Keepers</h4>
+                      <p>Age: 23</p>
+                      <p>Shirt Number: 26</p>
+                      <p>Nationality: Spain</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="keeperHeading3">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#tenas" aria-expanded="false" aria-controls="tenas">
+                        Arnau Tenas
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="tenas" class="collapse" aria-labelledby="keeperHeading3" data-parent="#keeperAccordion">
+                    <div class="card-body">
+                      <img src="./images/inaki_pena.png" alt="Inaki Pena">
+                      <h3>Arnau Tenas</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Goal Keepers</h4>
+                      <p>Age: 21</p>
+                      <p>Shirt Number: 36</p>
+                      <p>Nationality: Spain</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Defenders
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+
+              <!-- Individual accordion -->
+              <div class="accordion" id="defendersAccordion">
+                <!-- Jordi Alba -->
+                <div class="card">
+                  <div class="card-header" id="defenderHeading1">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#alba" aria-expanded="false" aria-controls="alba">
+                        Jordi Alba
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="alba" class="collapse" aria-labelledby="defenderHeading1" data-parent="#defendersAccordion">
+                    <div class="card-body">
+                      <img src="./images/jordi_alba.png" alt="Jordi Alba">
+                      <h3>Jordi Alba</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Left Back</h4>
+                      <p>Age: 33</p>
+                      <p>Shirt Number: 18</p>
+                      <p>Nationality: Spain</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Sergi Roberto -->
+                <div class="card">
+                  <div class="card-header" id="defenderHeading2">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#roberto" aria-expanded="false" aria-controls="roberto">
+                        Sergi Roberto
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="roberto" class="collapse" aria-labelledby="defenderHeading2" data-parent="#defendersAccordion">
+                    <div class="card-body">
+                      <img src="./images/sergi_roberto.png" alt="Sergi Roberto">
+                      <h3>Sergi Roberto</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Right Back</h4>
+                      <p>Age: 30</p>
+                      <p>Shirt Number: 20</p>
+                      <p>Nationality: Spain</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Hector Bellerin -->
+                <div class="card">
+                  <div class="card-header" id="defenderHeading3">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#bellerin" aria-expanded="false" aria-controls="bellerin">
+                        Hector Bellerin
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="bellerin" class="collapse" aria-labelledby="defenderHeading3" data-parent="#defendersAccordion">
+                    <div class="card-body">
+                      <img src="./images/bellerin.png" alt="Hector Bellerin">
+                      <h3>Hector Bellerin</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Right Back</h4>
+                      <p>Age: 27</p>
+                      <p>Shirt Number: 2</p>
+                      <p>Nationality: Spain</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Andreas Christensen -->
+                <div class="card">
+                  <div class="card-header" id="defenderHeading4">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#christensen" aria-expanded="false" aria-controls="christensen">
+                        Andreas Christensen
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="christensen" class="collapse" aria-labelledby="defenderHeading4" data-parent="#defendersAccordion">
+                    <div class="card-body">
+                      <img src="./images/christensen.png" alt="Andreas Christensen">
+                      <h3>Andreas Christensen</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Center Back</h4>
+                      <p>Age: 26</p>
+                      <p>Shirt Number: 15</p>
+                      <p>Nationality: Denmark</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Jules Kounde -->
+                <div class="card">
+                  <div class="card-header" id="defenderHeading5">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#kounde" aria-expanded="false" aria-controls="kounde">
+                        Jules Kounde
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="kounde" class="collapse" aria-labelledby="defenderHeading5" data-parent="#defendersAccordion">
+                    <div class="card-body">
+                      <img src="./images/jules_kounde.png" alt="Jules Kounde">
+                      <h3>Jules Kounde</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Center Back</h4>
+                      <p>Age: 23</p>
+                      <p>Shirt Number: 23</p>
+                      <p>Nationality: France</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Ronald Araujo -->
+                <div class="card">
+                  <div class="card-header" id="defenderHeading6">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#araujo" aria-expanded="false" aria-controls="araujo">
+                        Ronald Araujo
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="araujo" class="collapse" aria-labelledby="defenderHeading6" data-parent="#defendersAccordion">
+                    <div class="card-body">
+                      <img src="./images/ronaldo_araujo.png" alt="Ronald Araujo">
+                      <h3>Ronald Araujo</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Center Back</h4>
+                      <p>Age: 23</p>
+                      <p>Shirt Number: 4</p>
+                      <p>Nationality: Uruguay</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Eric Garcia -->
+                <div class="card">
+                  <div class="card-header" id="defenderHeading7">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#garcia" aria-expanded="false" aria-controls="garcia">
+                        Eric Garcia
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="garcia" class="collapse" aria-labelledby="defenderHeading7" data-parent="#defendersAccordion">
+                    <div class="card-body">
+                      <img src="./images/eric_garcia.png" alt="Eric Garcia">
+                      <h3>Eric Garcia</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Center Back</h4>
+                      <p>Age: 21</p>
+                      <p>Shirt Number: 24</p>
+                      <p>Nationality: Spain</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Alex Balde -->
+                <div class="card">
+                  <div class="card-header" id="defenderHeading8">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#balde" aria-expanded="false" aria-controls="balde">
+                        Alex Balde
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="balde" class="collapse" aria-labelledby="defenderHeading8" data-parent="#defendersAccordion">
+                    <div class="card-body">
+                      <img src="./images/balde.png" alt="Alex Balde">
+                      <h3>Alex Balde</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Left Back</h4>
+                      <p>Age: 19</p>
+                      <p>Shirt Number: 28</p>
+                      <p>Nationality: Spain</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Midfielders
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              <!-- Individuals accordion for midfielders -->
+              <div class="accordion" id="midfieldersAccordion">
+                <!-- Sergio Busquets -->
+                <div class="card">
+                  <div class="card-header" id="midfielderHeading1">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#busquets" aria-expanded="false" aria-controls="busquets">
+                        Sergio Busquets
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="busquets" class="collapse" aria-labelledby="midfielderHeading1" data-parent="#midfieldersAccordion">
+                    <div class="card-body">
+                      <img src="./images/sergio_busqets.png" alt="Sergio Busquets">
+                      <h3>Sergio Busquets</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Centeral Midfielder</h4>
+                      <p>Age: 34</p>
+                      <p>Shirt Number: 5</p>
+                      <p>Nationality: Spain</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Marcos Alonso -->
+                <!-- <div class="card">
+                  <div class="card-header" id="midfielderHeading2">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#alonso" aria-expanded="false" aria-controls="alonso">
+                        Marcos Alonso
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="alonso" class="collapse" aria-labelledby="midfielderHeading2" data-parent="#midfieldersAccordion">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div> -->
+                <!-- Frank Kessie -->
+                <div class="card">
+                  <div class="card-header" id="midfielderHeading3">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#kessie" aria-expanded="false" aria-controls="kessie">
+                        Frank Kessie
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="kessie" class="collapse" aria-labelledby="midfielderHeading3" data-parent="#midfieldersAccordion">
+                    <div class="card-body">
+                      <img src="./images/kessie.png" alt="Frank Kessie">
+                      <h3>Frank Kessie</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Central Midfielder</h4>
+                      <p>Age: 25</p>
+                      <p>Shirt Number: 19</p>
+                      <p>Nationality: Ivory Coast</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Frenkie de Jong -->
+                <div class="card">
+                  <div class="card-header" id="midfielderHeading4">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#jong" aria-expanded="false" aria-controls="jong">
+                        Frenkie de Jong
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="jong" class="collapse" aria-labelledby="midfielderHeading4" data-parent="#midfieldersAccordion">
+                    <div class="card-body">
+                      <img src="./images/de_jong.png" alt="Frenkie de">
+                      <h3>Jordi Alba</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Central Midfielder</h4>
+                      <p>Age: 25</p>
+                      <p>Shirt Number: 21</p>
+                      <p>Nationality: Netherlands</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Pedri -->
+                <div class="card">
+                  <div class="card-header" id="midfielderHeading5">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#pedri" aria-expanded="false" aria-controls="pedri">
+                        Pedri
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="pedri" class="collapse" aria-labelledby="midfielderHeading5" data-parent="#midfieldersAccordion">
+                    <div class="card-body">
+                      <img src="./images/pedri.png" alt="Pedri">
+                      <h3>Pedri</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Left Back</h4>
+                      <p>Age: 19</p>
+                      <p>Shirt Number: 8</p>
+                      <p>Nationality: Spain</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Pablo Torre -->
+                <div class="card">
+                  <div class="card-header" id="midfielderHeading7">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#torre" aria-expanded="false" aria-controls="torre">
+                        Pablo Torre
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="torre" class="collapse" aria-labelledby="midfielderHeading7" data-parent="#midfieldersAccordion">
+                    <div class="card-body">
+                      <img src="./images/pablo_torre.png" alt="Pablo Torre">
+                      <h3>Pablo Torre</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Central Midfielder</h4>
+                      <p>Age: 19</p>
+                      <p>Shirt Number: 32</p>
+                      <p>Nationality: Spain</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Pablo Gavira -->
+                <div class="card">
+                  <div class="card-header" id="midfielderHeading8">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#gavi" aria-expanded="false" aria-controls="gavi">
+                        Pablo Gavira
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="gavi" class="collapse" aria-labelledby="midfielderHeading8" data-parent="#midfieldersAccordion">
+                    <div class="card-body">
+                      <img src="./images/gavi.png" alt="Pablo Gavira">
+                      <h3>Pablo Gavira</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Left Back</h4>
+                      <p>Age: 18</p>
+                      <p>Shirt Number: 30</p>
+                      <p>Nationality: Spain</p>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Forwards
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div class="card-body">
+              <!-- Individual accordion for forwards -->
+              <div class="accordion" id="forwardAccordion">
+                <!-- Robert Lewandowski -->
+                <div class="card">
+                  <div class="card-header" id="forwardHeading">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#lewandowski" aria-expanded="false" aria-controls="lewandowski">
+                        Robert Lewandowski
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="lewandowski" class="collapse" aria-labelledby="forwardHeading" data-parent="#forwardAccordion">
+                    <div class="card-body">
+                      <img src="./images/lewa.png" alt="Robert Lewandowski">
+                      <h3>Robert Lewandowski</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Striker</h4>
+                      <p>Age: 34</p>
+                      <p>Shirt Number: 9</p>
+                      <p>Nationality: Poland</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Memphis Depay -->
+                <div class="card">
+                  <div class="card-header" id="forwardHeading2">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#depay" aria-expanded="false" aria-controls="depay">
+                        Memphis Depay
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="depay" class="collapse" aria-labelledby="forwardHeading2" data-parent="#forwardAccordion">
+                    <div class="card-body">
+                      <img src="./images/depay.png" alt="Memphis Depay">
+                      <h3>Memphis Depay</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Centre Forward</h4>
+                      <p>Age: 28</p>
+                      <p>Shirt Number: 14</p>
+                      <p>Nationality: Netherlands</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Ousmane Dembele -->
+                <div class="card">
+                  <div class="card-header" id="forwardHeading3">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#dembele" aria-expanded="false" aria-controls="dembele">
+                        Ousmane Dembele
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="dembele" class="collapse" aria-labelledby="forwardHeading3" data-parent="#forwardAccordion">
+                    <div class="card-body">
+                      <img src="./images/dembele.png" alt="Ousmane Dembele">
+                      <h3>Ousmane Dembele</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Right Winger</h4>
+                      <p>Age: 25</p>
+                      <p>Shirt Number: 7</p>
+                      <p>Nationality: France</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Raphina -->
+                <div class="card">
+                  <div class="card-header" id="forwardHeading4">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#raphina" aria-expanded="false" aria-controls="raphina">
+                        Raphina
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="raphina" class="collapse" aria-labelledby="forwardHeading4" data-parent="#forwardAccordion">
+                    <div class="card-body">
+                      <img src="./images/raphina.png" alt="Raphina">
+                      <h3>Raphina</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Right Winger</h4>
+                      <p>Age: 22</p>
+                      <p>Shirt Number: 22</p>
+                      <p>Nationality: Brazil</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Ferran Torres -->
+                <div class="card">
+                  <div class="card-header" id="forwardHeading5">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#torres" aria-expanded="false" aria-controls="torres">
+                        Ferran Torres
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="torres" class="collapse" aria-labelledby="forwardHeading5" data-parent="#forwardAccordion">
+                    <div class="card-body">
+                      <img src="./images/ferran_torres.png" alt="Ferran Torres">
+                      <h3>Ferran Torres</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Left Winger</h4>
+                      <p>Age: 22</p>
+                      <p>Shirt Number: 11</p>
+                      <p>Nationality: Spain</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Ansu Fati -->
+                <div class="card">
+                  <div class="card-header" id="forwardHeading6">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#fati" aria-expanded="false" aria-controls="fati">
+                        Ansu Fati
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="fati" class="collapse" aria-labelledby="forwardHeading6" data-parent="#forwardAccordion">
+                    <div class="card-body">
+                      <img src="./images/fati.png" alt="Ansu Fati">
+                      <h3>Ansu Fati</h3>
+                      <h4 class="mb-2 text-muted">Preferred Position: Left Winger</h4>
+                      <p>Age: 20</p>
+                      <p>Shirt Number: 10</p>
+                      <p>Nationality: Spain</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
